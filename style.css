@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #6534d6 0%, #3b2be6 100%);
+  padding: 2rem;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #f8faff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.main-header {
+  text-align: center;
+  background: #fff;
+  padding: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.main-header h1 {
+  font-weight: 600;
+  color: #333;
+}
+
+.main-header p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.card {
+  margin: 1.2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #fffaf9, #ffeef3);
+
+  /* Ubah arah bayangan */
+  box-shadow: -5px 0px 0px rgba(23, 60, 242, 0.824);
+}
+
+.card-practice {
+  margin: 1.2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: linear-gradient(120deg, #d74f34, #f4b2c5);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e3a8a; /* biru elegan */
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #1d9bf0; /* garis biru tegas */
+  display: block;
+}
+
+.card h3 {
+  margin-top: 0.8rem;
+}
+
+.card ul {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.highlight {
+  background: linear-gradient(to right, #add8e6, #ffb6c1);
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin-top: 0.8rem;
+  box-shadow: -5px 0px 0px rgba(242, 23, 23, 0.824);
+}
+
+pre {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+th {
+  background: #f1f5f9;
+}
+
+.example-box {
+  border: 1.5px dashed #0553ef;
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.example-box h1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.example-box ul,
+.example-box ol {
+  margin-left: 25px; /* jarak dari teks ke border kiri */
+  margin-bottom: 15px; /* beri ruang bawah biar lega */
+}
+
+.example-box li {
+  margin-bottom: 6px; /* beri jarak antar item list */
+}
+
+/* Pembungkus luar (border dashed biru) */
+.form-container {
+  border: 1.5px dashed #0078d4;
+  border-radius: 10px;
+  padding: 2rem;
+  background: #f9fafc;
+  display: flex;
+  justify-content: center;
+}
+
+/* Form di dalamnya */
+.form-box {
+  display: flex;
+  border: 1.5px dashed #0078d4;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 900px; /* supaya form tidak terlalu lebar */
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Teks label */
+.form-box p {
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input, select, textarea */
+.form-box input,
+.form-box select,
+.form-box textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 0.95rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-box input:focus,
+.form-box select:focus,
+.form-box textarea:focus {
+  border-color: #0078d4;
+  box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.2);
+  outline: none;
+}
+
+.form-box textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Tombol */
+.form-box button {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-box button:hover {
+  background-color: #005fa3;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(90deg, #6b5bff, #6ec9ff);
+  color: #fff;
+}
+
+.footer h2 {
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
